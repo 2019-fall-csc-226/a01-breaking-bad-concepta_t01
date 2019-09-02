@@ -39,7 +39,7 @@ elif birth_year == 2003:
     print(" You are a Goat")
 elif birth_year == 2004:
     print(" You are a Monkey")
-elif birth_year == 1999:
+elif birth_year == 2005:
     print(" You are a Rooster")
 else:
     print("Enter a year between 1997 and 2005 ")
@@ -68,7 +68,7 @@ elif friend_birth == 2003:
     print(" Your friend is a Goat")
 elif friend_birth == 2004:
     print(" Your friend is  a Monkey")
-elif friend_birth == 1999:
+elif friend_birth == 2005:
     print(" Your friend a Rooster")
 else:
     print("Enter a year between 1997 and 2005 ")
@@ -79,6 +79,10 @@ else:
 # NOTE: You can always assume the first input is your birth year (i.e., 1982 for me).
 # This way, you are not writing a ton of code to consider every possibility.
 # In other words, only do one row of the sample compatibility table.
+if birth_year == 1997 and friend_birth == 1997 or friend_birth == 2001 or friend_birth == 2005:
+    print("Great friends!!! hahahaaahaha")
 
+elif birth_year== 2003:
+    print("Goat!!! Got all reasons to keep away from me!")
 
 # TODO print if you are a strong match, no match, or in between
