@@ -47,10 +47,31 @@ else:
 ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
+friend_birth = int(input("Enter your friend's year of birth"))
 
 
 # TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
 
+if friend_birth== 1997:
+    print(" Your friend an Ox")
+elif friend_birth == 1998:
+    print(" Your friend an Tiger")
+elif friend_birth == 1999:
+    print(" Your friend a Rabbit")
+elif friend_birth == 2000:
+    print(" Your friend a Dragon")
+elif friend_birth == 2001:
+    print(" Your friend is a snake")
+elif friend_birth == 2002:
+    print(" Your friend is a Horse")
+elif friend_birth == 2003:
+    print(" Your friend is a Goat")
+elif friend_birth == 2004:
+    print(" Your friend is  a Monkey")
+elif friend_birth == 1999:
+    print(" Your friend a Rooster")
+else:
+    print("Enter a year between 1997 and 2005 ")
 
 ######################################################################
 # (Optional) Task 3
